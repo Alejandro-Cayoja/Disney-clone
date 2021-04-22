@@ -96,7 +96,11 @@ const SignUp = styled.a `
     `;
 
 const Description = styled.p`
-    
+    color: #f9f9f9;
+    font-size: 12px;
+    margin: 0 0 24px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
     `;
 
 export default Login;
