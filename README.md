@@ -1,4 +1,13 @@
-<<<<<<< HEAD
+# Disney-clone
+Una practica de React para ponerme a prueba
+
+> Aqui voy a repasar muchas cualidades de React y ver la manera de llegar a el diseño final
+
+## Usare 
+* Firebase
+* Redux
+* UX
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,14 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# Disney-clone
-Una practica de React para ponerme a prueba
 
-> Aqui voy a repasar muchas cualidades de React y ver la manera de llegar a el diseño final
-
-## Usare 
-* Firebase
-* Redux
-* UX
-
->>>>>>> 7f6392cc320cd639ec8aad9b293382e44c1755e2
