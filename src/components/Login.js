@@ -54,6 +54,12 @@ const CTA = styled.div`
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     `;
 
 const CTALogoOne = styled.img`
