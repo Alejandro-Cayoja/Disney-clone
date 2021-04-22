@@ -7,6 +7,10 @@ const Login = (props) => {
                 <CTA>
                     <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
                     <SignUp>GET ALL THERE</SignUp>
+                    <Description>
+                    Discover the best stories from Disney, Pixar, Marvel, Star Wars and National Geographic, all in one place. 
+                    From new releases and Disney + Originals to unforgettable classics. A place with entertainment for everyone.
+                    </Description>
                 </CTA>
                 <BgImage />
             </Content>
@@ -85,6 +89,14 @@ const SignUp = styled.a `
     padding: 16.5px 0;
     border: 1px solid transparent;
     border-radius: 4px;
+
+    &:hover {
+        background-color: #0483ee;
+    }
+    `;
+
+const Description = styled.p`
+    
     `;
 
 export default Login;
