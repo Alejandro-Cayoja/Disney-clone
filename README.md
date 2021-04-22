@@ -6,7 +6,7 @@ Una practica de React para ponerme a prueba
 ## Usare 
 * Firebase
 * Redux
-* UX
+* Styled Components
 
 # Getting Started with Create React App
 
