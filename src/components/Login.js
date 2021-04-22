@@ -48,8 +48,20 @@ const BgImage = styled.div`
     z-index: -1;
     `;
 
-const CTA = styled.div``;
+const CTA = styled.div`
+    margin-bottom: 2vw;
+    max-width: 650px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    `;
 
-const CTALogoOne = styled.img``; 
+const CTALogoOne = styled.img`
+    margin-bottom: 12px;
+    max-width: 600px;
+    min-height: 1px;
+    display: block;
+    width: 100%;
+    `; 
 
 export default Login;
