@@ -80,6 +80,11 @@ const SignUp = styled.a `
     background-color: #0063e5;
     margin-bottom: 12px;
     width: 100%;
+    letter-spacing: 5px;
+    font-size: 18px;
+    padding: 16.5px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
     `;
 
 export default Login;
