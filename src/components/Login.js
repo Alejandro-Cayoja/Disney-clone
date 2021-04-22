@@ -6,6 +6,7 @@ const Login = (props) => {
             <Content>
                 <CTA>
                     <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
+                    <SignUp>GET ALL THERE</SignUp>
                 </CTA>
                 <BgImage />
             </Content>
@@ -72,5 +73,13 @@ const CTALogoOne = styled.img`
     display: block;
     width: 100%;
     `; 
+
+const SignUp = styled.a `
+    font-weight: bold;
+    color: #f9f9f9;
+    background-color: #0063e5;
+    margin-bottom: 12px;
+    width: 100%;
+    `;
 
 export default Login;
