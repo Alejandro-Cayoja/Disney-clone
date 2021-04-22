@@ -11,6 +11,7 @@ const Login = (props) => {
                     Discover the best stories from Disney, Pixar, Marvel, Star Wars and National Geographic, all in one place. 
                     From new releases and Disney + Originals to unforgettable classics. A place with entertainment for everyone.
                     </Description>
+                    <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
                 </CTA>
                 <BgImage />
             </Content>
@@ -101,6 +102,10 @@ const Description = styled.p`
     margin: 0 0 24px;
     line-height: 1.5;
     letter-spacing: 1.5px;
+    `;
+
+const CTALogoTwo = styled.img`
+   
     `;
 
 export default Login;
