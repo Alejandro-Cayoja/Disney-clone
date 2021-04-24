@@ -90,7 +90,7 @@ const NavMenu = styled.div`
         }
 
         span {
-            color: rgb(249,249,249);
+            color: rgb(249, 249, 249);
             font-size: 13px;
             letter-spacing: 1.42px;
             line-height: 1.08;
@@ -99,7 +99,7 @@ const NavMenu = styled.div`
             position: relative;
 
             &:before {
-                background-color: rgb(249,249,249);
+                background-color: rgb(249, 249, 249);
                 border-radius: 0px 0px 4px 4px;
                 bottom: -6px;
                 content: "";
@@ -110,7 +110,7 @@ const NavMenu = styled.div`
                 right: 0px;
                 transform-origin: left center;
                 transform: scaleX(0);
-                transition: all 250ms cubic-bezier(0.25,0.46,0.45,0.94) 0s;
+                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
                 visibility: hidden;
                 width: auto;
             }
