@@ -9,8 +9,8 @@ const Header = (props) => {
             <NavMenu>
                 <a href="/home">
                     <img src="/images/home-icon.svg" alt="home" />
+                    <span>HOME</span>
                 </a>
-                <span>HOME</span>
             </NavMenu>
         </Nav>
     ) 
@@ -65,6 +65,17 @@ const NavMenu = styled.div`
             height: 20px;
             min-width: 20px;
             width: 20px;
+            z-index: auto;
+        }
+
+        span {
+            color: rgb(249,249,249);
+            font-size: 13px;
+            letter-spacing: 1.42px;
+            line-height: 1.08;
+            padding: 2px 0px;
+            white-space: nowrap;
+            position: relative;
         }
     }
 
