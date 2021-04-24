@@ -85,6 +85,13 @@ const NavMenu = styled.div`
             content: "";
             height: 2px;
             opacity: 0;
+            position: absolute;
+            right: 0px;
+            transform-origin: left center;
+            transform: scaleX(0);
+            transition: all 250ms cubic-bezier(0.25,0.46,0.45,0.94) 0s;
+            visibility: hidden;
+            width: auto;
         }
     }
 
