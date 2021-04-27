@@ -4,15 +4,6 @@ const Home = (props) => {
     return (
         <Container>
             <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
-            <h2>Hallo</h2>
         </Container>
     )
 };
