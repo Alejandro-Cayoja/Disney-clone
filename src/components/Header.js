@@ -6,6 +6,7 @@ import { auth, provider } from "../firebase";
 import { 
     selectUserName, 
     selectUserPhoto, 
+    setSignOutState, 
     setUserLoginDetails 
     } from "../features/user/userSlice";
 
@@ -26,6 +27,7 @@ const Header = (props) => {
     }, [userName]);
 
     const handleAuth = () => {
+        if (!userName) {
         auth
         .signInWithPopup(provider)
         .then((result) => {
@@ -34,6 +36,12 @@ const Header = (props) => {
         .catch((error) => {
             alert(error.message);
         });
+    } else if (userName) {
+        auth.signOut().then(() => {
+            dispatch(setSignOutState());
+            history.push("/");
+        }).catch((err) => alert(err.message));
+    }
     };
 
     const setUser = (user) => {
@@ -236,6 +244,13 @@ const SignOut = styled.div`
         border-radius: 50%;
         width: 100%;
         height: 100%;
+    }
+
+    &:hover {
+        ${DropDown} {
+            opacity: 1;
+            transition-duration: 1s;
+        }
     }
     `;
 
