@@ -5,6 +5,14 @@ const Home = (props) => {
         <Container>
             <h2>Hallo</h2>
             <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
         </Container>
     )
 };
@@ -17,7 +25,15 @@ const Container = styled.main`
     top: 72px;
     padding: 0 calc(3.5vw + 5px);
 
-    
+    &:after {
+        background: url("/images/home-background.png") center center / cover
+           no-repeat fixed;
+        content: "";
+        position: absolute;
+        inset: 0px;
+        opacity: 1;
+        z-index: -1;
+    }
     `;
 
 export default Home;
