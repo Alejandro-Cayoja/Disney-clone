@@ -2,8 +2,17 @@ import styled from "styled-components";
 
 const Home = (props) => {
     return (
-        <div></div>
+        <Container>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+            <h2>Hallo</h2>
+        </Container>
     )
 };
+
+const Container = styled.main`
+    position: relative;
+    background: url("/images/home-background.png");
+    `;
 
 export default Home;
