@@ -223,6 +223,12 @@ const DropDown = styled.div`
     opacity: 0;
     `;
 
-const SignOut = styled.div``;
+const SignOut = styled.div`
+    position: relative;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    cursor: pointer;
+    `;
 
 export default Header;
