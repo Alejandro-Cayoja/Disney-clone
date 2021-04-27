@@ -19,8 +19,8 @@ const Header = (props) => {
     useEffect(() => {
         auth.onAuthStateChanged(async (user) => {
             if(user) {
-                setUser(user)
-                history.push("/home")
+                setUser(user);
+                history.push("/home");
             }
         })
     }, [userName]);
@@ -82,7 +82,12 @@ const Header = (props) => {
                         <span>SERIES</span>
                     </a>
                 </NavMenu>
+                <SignOut>
                 <UserImg src={userPhoto} alt={userName} />
+                <DropDown>
+                    <span onClick={handleAuth}>Sign out</span>
+                </DropDown>
+                </SignOut>
               </>
             )}
         </Nav>
@@ -202,5 +207,9 @@ const Login = styled.a`
 const UserImg = styled.img`
     height: 100%;
     `;    
+
+const DropDown = styled.div``;
+
+const SignOut = styled.div``;
 
 export default Header;
