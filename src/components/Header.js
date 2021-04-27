@@ -229,6 +229,14 @@ const SignOut = styled.div`
     width: 48px;
     display: flex;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    ${UserImg} {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
     `;
 
 export default Header;
