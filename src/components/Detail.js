@@ -6,6 +6,10 @@ const Detail = (props) => {
             <Background>
                 <img alt="" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg" />
             </Background>
+
+            <ImageTitle>
+                <img alt="" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78" />
+            </ImageTitle>
         </Container>
     )
 };
@@ -35,6 +39,10 @@ const Background = styled.div`
         width: initial;
         }
     }
+    `;
+
+const ImageTitle = styled.div`
+    
     `;
 
 export default Detail;
