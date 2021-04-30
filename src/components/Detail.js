@@ -42,7 +42,21 @@ const Background = styled.div`
     `;
 
 const ImageTitle = styled.div`
-    
+    align-items: flex-end;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin: 0px auto;
+    height: 30vw;
+    min-height: 170px;
+    padding-bottom: 24px;
+    width: 100%;
+
+    img {
+        max-width: 600px;
+        min-width: 200px;
+        width: 35vw;
+    }
     `;
 
 export default Detail;
