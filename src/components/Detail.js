@@ -30,7 +30,7 @@ const Detail = (props) => {
             </Background>
 
             <ImageTitle>
-                <img alt="" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78" />
+                <img alt={detailData.title} src={detailData.titleImg} />
             </ImageTitle>
             <ContentMeta>
                 <Controls>
@@ -53,10 +53,10 @@ const Detail = (props) => {
                     </GroupWatch>
                 </Controls>
                 <SubTitle>
-                    SubTitle
+                    {detailData.subTitle}
                 </SubTitle>
                 <Description>
-                    Description
+                    {detailData.description}
                 </Description>
             </ContentMeta>
         </Container>
